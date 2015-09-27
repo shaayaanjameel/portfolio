@@ -8,11 +8,11 @@ ___
 
 ---    
 process:
+  - research-1.jpg
+  - research-2.jpg
   - sketch-1.jpg
   - sketch-2.jpg
-  - sketch-3.jpg
-  - sketch-4.jpg
-desc: Donec sodales ac nibh quis condimentum. Proin in nibh felis. 
+desc: A series of research/sketches of the process I had gone through to get to my final result.  
 
 tags:
   - Illustration
