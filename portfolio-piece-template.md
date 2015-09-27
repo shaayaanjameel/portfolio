@@ -1,6 +1,20 @@
 ---
-name: Portfolio Piece 1
-banner: portfolio1.jpg
+name: Mr. Stache
+banner: mrstache.jpg
 ___
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, magna in malesuada laoreet, tortor tortor aliquam nunc, quis posuere turpis neque ut ante. Mauris et porttitor mi. Mauris pretium vitae massa in tincidunt. Maecenas nisi lacus, finibus eget rutrum quis, elementum faucibus erat. Nunc malesuada mi eu turpis consequat, et interdum mi sollicitudin. Sed eget auctor dolor, ut posuere elit.
+# Who Gives A Hoot
+**Who Gives A Hoot** is a serious of *Uloo-strations* spanning a year. **Mr. Stache** is one of the many Owls illustrated by me who takes on the theme representing *Prostate Cancer*.
+
+---    
+process:
+  - sketch-1.jpg
+  - sketch-2.jpg
+  - sketch-3.jpg
+  - sketch-4.jpg
+desc: Donec sodales ac nibh quis condimentum. Proin in nibh felis. 
+
+tags:
+  - Illustration
+  - Adobe Illustrator 
+---
