@@ -16,3 +16,32 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #D8ECDA;
+    height: 5em;
+    margin-top: 2.5em;
+}
+
+.nav ul {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.nav li {
+    display: inline;
+    font-weight: 500;
+    font-size: 2em;
+    color: #599BAB;
+}
+
+.logo {
+    position: absolute;
+    height: 20%;
+    left: calc(50% - 77px);
+    top: 0;
+}
