@@ -45,3 +45,23 @@ body {
     left: calc(50% - 77px);
     top: 0;
 }
+
+.footer {
+    background-color: #D8ECDA;
+    text-align: center;
+}
+
+.footer p {
+    color: #599BAB;
+    padding-top: .5em;
+    margin-bottom: .5em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.sm-icon {
+    height: 2.5em;
+    margin-bottom: .5em;
+}
