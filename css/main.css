@@ -43,16 +43,22 @@ body {
     color: #599BAB;
 }
 
+header {
+    margin-top: 1em;
+    height: 11.25em;
+    border-bottom: 2px solid #F8A79A;
+}
+
 .logo {
     position: absolute;
     height: 20%;
-    left: calc(50% - 77px);
+    left: calc(50% - 69px);
 }
 
 main {
     padding: 0;
     margin: 0;
-    margin-top: 13em;
+    margin-top: 1em;
 }
 
 /*
