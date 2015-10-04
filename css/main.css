@@ -49,6 +49,13 @@ body {
     left: calc(50% - 77px);
 }
 
+main {
+    padding: 0;
+    margin: 0;
+    margin-top: 13em;
+}
+
+/*
 .footer {
     background-color: #D8ECDA;
     text-align: center;
@@ -72,4 +79,4 @@ body {
 
 .sm-icon:last-child {
     margin-right: 0;
-}
+}*/
