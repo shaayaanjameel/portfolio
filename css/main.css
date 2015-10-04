@@ -21,29 +21,27 @@ body {
     margin: 0;
 }
 
-.nav {
-    background-color: #D8ECDA;
-    height: 5em;
-    margin-top: 2.5em;
-}
-
 .nav ul {
     text-align: center;
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 .nav li {
-    display: inline;
+    display: block;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.75em;
+    margin: .25em auto;
     color: #599BAB;
+}
+
+.nav ul a{
+   text-decoration: none;
 }
 
 .logo {
     position: absolute;
     height: 20%;
     left: calc(50% - 77px);
-    top: 0;
 }
 
 .footer {
