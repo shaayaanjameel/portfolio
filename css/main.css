@@ -74,6 +74,12 @@ main {
     margin: 0 auto;
 }
 
+.about img {
+    height: 200px;
+    margin-top: 1em;
+    margin-left: calc(50% - 100px);
+}
+
 .footer {
     margin-top: 1em;
     border-top: 2px solid #F8A79A;
