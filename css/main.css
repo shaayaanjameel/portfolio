@@ -37,7 +37,7 @@ body {
 
 .nav li {
     display: block;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1.25em;
     margin: .25em auto;
     color: #599BAB;
@@ -56,12 +56,19 @@ header a {
     text-align: center;
     color: #276CA3;
     font-size: 1.75em;
+    font-weight: 500;
+    margin-bottom: .6em;
 }
 
 main {
     padding: 0;
     margin: 1em auto 0 auto;
     text-align: center;
+}
+
+.work {
+    margin: 0 .5em;
+    max-width: 800px;
 }
 
 #topl {
@@ -74,14 +81,16 @@ main {
     margin-top: 1em;
 }
 
-.about h2 {
+.about h2,
+.ptitle {
     font-size: 1.5em;
     color: #599BAB;
     margin: 0 auto .25em auto;
     line-height: inherit;
+    font-weight: 400;
 }
 
-.about p{
+.about p{ 
     margin: 0 1em;
 }
 
@@ -102,22 +111,22 @@ main {
 }
 
 .portfolio p {
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 1em;
 }
 
 .mainimg {
     margin: 1em auto;
-    width: 250px;
+    width: 240px;
 }
 
 .thumbnails {
-    height: 250px;
+    height: 240px;
 }
 
 figcaption {
     margin: .25em auto;
-    max-width: 250px;
+    max-width: 240px;
 }
 
 .footer {
@@ -163,7 +172,7 @@ footer p{
     
     .logo {
         position: absolute;
-        top: 0;
+        top: 0.1em;
         left: .25em;
     }
 
@@ -173,6 +182,18 @@ footer p{
     
     .logo {
         top: .2em;
+    }
+    
+    .portfolio p {
+        margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (min-width: 51em) {
+    
+    .work {
+        margin: 0 auto;
     }
     
 }
