@@ -23,7 +23,7 @@ body {
 
 .nav {
     border-bottom: 2px solid #F8A79A;
-    height: 9.5em; 
+    height: 7.5em; 
 }
 
 .nav ul {
@@ -38,21 +38,24 @@ body {
 .nav li {
     display: block;
     font-weight: 500;
-    font-size: 1.75em;
+    font-size: 1.25em;
     margin: .25em auto;
     color: #599BAB;
 }
 
 header {
     margin-top: 1em;
-    height: 11.25em;
     border-bottom: 2px solid #F8A79A;
 }
 
+header a {
+    text-decoration: none;
+}
+
 .logo {
-    position: absolute;
-    height: 20%;
-    left: calc(50% - 69px);
+    text-align: center;
+    color: #276CA3;
+    font-size: 1.75em;
 }
 
 main {
@@ -71,10 +74,10 @@ main {
     margin-top: 1em;
 }
 
-.about h1 {
-    font-size: 2em;
+.about h2 {
+    font-size: 1.5em;
     color: #599BAB;
-    margin: 0;
+    margin: 0 auto .25em auto;
     line-height: inherit;
 }
 
@@ -160,6 +163,16 @@ footer p{
         font-size: 1.5em;
     }
 
+    header {
+        border-bottom: none;
+    }
+    
+    .logo {
+        position: absolute;
+        top: .25em;
+        left: .25em;
+    }
+    
 }
 
 @media only screen and (min-width: 60em) {
