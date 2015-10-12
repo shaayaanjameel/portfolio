@@ -61,10 +61,21 @@ main {
     text-align: center;
 }
 
+#topl {
+    background-image: url(../images/november.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    margin-top: 1em;
+}
+
 .about h1 {
     font-size: 2em;
     color: #599BAB;
     margin: 0;
+    line-height: inherit;
 }
 
 .about p{
@@ -126,4 +137,37 @@ footer p{
 .socialmedia p{
     display: inline-block;
     color: #276CA3;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+}
+
+@media only screen and (min-width: 38em) {
+    
+    .nav {
+        height: 3.5em; 
+    }
+    
+    .nav ul {
+        text-align: right;
+    }
+
+    .nav li {
+        display: inline-block;
+        margin: .25em;
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+}
+
+@media only screen and (min-width: 80em) {
+
+
 }
