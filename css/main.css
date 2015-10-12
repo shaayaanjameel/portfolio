@@ -142,13 +142,8 @@ footer p{
     margin-bottom: .5em;
 }
 
-@media only screen and (min-width: 25em) {
-
-
-}
-
-@media only screen and (min-width: 38em) {
-    
+@media only screen and (min-width: 31.25em) {
+ 
     .nav {
         height: 3.5em; 
     }
@@ -159,7 +154,7 @@ footer p{
 
     .nav li {
         display: inline-block;
-        margin: .25em;
+        margin: .35em .25em;
     }
 
     header {
@@ -168,18 +163,16 @@ footer p{
     
     .logo {
         position: absolute;
-        top: .2em;
+        top: 0;
         left: .25em;
     }
+
+}
+
+@media only screen and (min-width: 38em) {
     
-}
-
-@media only screen and (min-width: 60em) {
-
-
-}
-
-@media only screen and (min-width: 80em) {
-
-
+    .logo {
+        top: .2em;
+    }
+    
 }
