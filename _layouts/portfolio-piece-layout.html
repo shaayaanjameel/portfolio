@@ -1,0 +1,28 @@
+---
+layout: default
+--- 
+       
+    <main role="main">
+        <div class="grid">
+          
+          {% for a in site.data.piece-02 %}
+          
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
+                <h2 class="ptitle">{{a.title}}</h1>
+                <p>{{a.intro}}</p>
+            </div>
+            
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+                <img class="mainimg" src="{{a.main-img}}" alt="Mr.Stache">    
+                <figcaption class="micro">{{a.caption}}</figcaption>
+            </div>
+            
+            {% for b in a.thumbnails %}
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
+                <img class="thumbnails" src="{{b.thumb}}" alt="Owl research">
+                <figcaption class="micro">{{b.desc}}</figcaption>
+            </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+    </main>   
