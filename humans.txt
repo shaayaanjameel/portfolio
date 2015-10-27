@@ -1,0 +1,21 @@
+# TEAM
+
+Designer & Developer: Shaayaan Jameel <hello@shaayaanjameel.ca>
+Site: http://shaayaanjameel.ca
+Twitter: @shaayaanjameel
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Brackets
+- Git + GitJub
+- Markdown
+- YAML
+
+## Hosting
+
+- Hover <https://www.hover.com>
