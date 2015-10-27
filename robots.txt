@@ -1,0 +1,3 @@
+Sitemap: https://shaayaanjameel.ca/sitemap.xml
+
+User-Agent: *
