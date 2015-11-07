@@ -1,0 +1,12 @@
+<url>
+  <loc>http://shaayaanjameel.github.io{{site.baseurl}}{{include.entry.url}}</loc>
+  {% if include.entry.priority %}
+    <priority>{{include.entry.priority}}</priority>
+  {% endif %}
+  {% if include.entry.lastmod %}
+    <lastmod>include.entry.lastmod</lastmod>
+  {% endif %}
+  {% if include.entry.changefreq %}
+    <changefreq>include.entry.changefreq</changefreq>
+  {% endif %}
+</url>
