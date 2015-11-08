@@ -10,13 +10,13 @@ layout: default
     </div>
             
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <img class="mainimg" src="{{page.main-img}}" alt="Mr.Stache">    
+      <img class="mainimg" src="{{page.main-img}}" alt="">    
       <figcaption class="micro">{{page.caption}}</figcaption>
     </div>
             
     {% for thumb in page.thumbnails %}
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
-      <img class="thumbnails" src="{{thumb.thumb}}" alt="Owl research">
+      <img class="thumbnails" src="{{thumb.thumb}}" alt="">
       <figcaption class="micro">{{thumb.desc}}</figcaption>
     </div>
     {% endfor %}
