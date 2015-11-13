@@ -11,13 +11,17 @@ layout: default
             
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
       <img class="mainimg" src="{{page.main-img}}" alt="">    
-      <figcaption class="micro">{{page.caption}}</figcaption>
+      <figcaption class="micro maincap">{{page.caption}}</figcaption>
+    </div>
+    
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
+      <h3 class="processtitle">The Process</h1>
     </div>
     
     {% for thumb in page.thumbnails %}
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
       <img class="thumbnails" src="{{thumb.thumb}}" alt="">
-      <figcaption class="micro">{{thumb.desc}}</figcaption>
+      <figcaption class="micro thumbcap">{{thumb.desc}}</figcaption>
     </div>
     {% endfor %}
   </div>
