@@ -10,7 +10,7 @@ layout: default
     </div>
             
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <img class="mainimg" src="{{page.main-img}}" alt="">    
+      <img class="mainimg" src="{{site.baseurl}}/images/{{page.main-img}}" alt="">    
       <figcaption class="micro maincap">{{page.caption}}</figcaption>
     </div>
     
@@ -20,7 +20,7 @@ layout: default
     
     {% for thumb in page.thumbnails %}
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
-      <img class="thumbnails" src="{{thumb.thumb}}" alt="">
+      <img class="thumbnails" src="{{site.baseurl}}/images/{{thumb.thumb}}" alt="">
       <figcaption class="micro thumbcap">{{thumb.desc}}</figcaption>
     </div>
     {% endfor %}
