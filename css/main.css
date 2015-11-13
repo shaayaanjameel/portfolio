@@ -129,9 +129,21 @@ main {
 }
 
 .mainimg {
-  margin: 1em .5em;
+  margin: 1em .5em 0 .5em;
   width: 100%;
   max-width: 700px;
+}
+
+.maincap {
+  max-width: 700px;
+  text-align: left;
+  margin-left: .5em;
+}
+
+.processtitle {
+  font-weight: 300;
+  color: #599BAB;
+  margin-top: 1em;
 }
 
 .thumbnails {
@@ -139,9 +151,11 @@ main {
   margin: 0em .5em;
 }
 
-figcaption {
-  margin: .25em .5em .5em .5em;
+.thumbcap {
+  margin-top: .25em;
+  margin-left: .5em;
   max-width: 400px;
+  text-align: left;
 }
 
 .footer {
@@ -169,6 +183,14 @@ footer p {
     
   figcaption {
     margin: .25em auto .5em auto
+  }
+    
+}
+
+@media only screen and (min-width: 26em) {
+    
+  .thumbcap {
+    margin-left: auto;
   }
     
 }
@@ -212,6 +234,14 @@ footer p {
     
   .portfolio p {
     margin: 0 auto;
+  }
+    
+}
+
+@media only screen and (min-width: 44.75em) {
+    
+  .maincap {
+    margin: auto;
   }
     
 }
