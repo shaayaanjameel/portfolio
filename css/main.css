@@ -135,7 +135,8 @@ main {
 }
 
 .thumbnails {
-  max-width: 400px
+  max-width: 400px;
+  margin: 0em .5em;
 }
 
 figcaption {
@@ -211,14 +212,6 @@ footer p {
     
   .portfolio p {
     margin: 0 auto;
-  }
-    
-}
-
-@media only screen and (min-width: 44.75em) {
-    
-  .mainimg {
-    margin: 1em auto;
   }
     
 }
