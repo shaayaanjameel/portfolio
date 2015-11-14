@@ -42,6 +42,7 @@ a:focus {
 
 .nav {
   border-bottom: 2px solid #F8A79A;
+  margin: 0 .5em;
   height: 7.5em; 
 }
 
@@ -64,6 +65,8 @@ a:focus {
 
 header {
   margin-top: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
   border-bottom: 2px solid #F8A79A;
 }
 
@@ -163,6 +166,7 @@ main {
 
 .footer {
   border-top: 2px solid #F8A79A;
+  margin: 0 .5em;
   text-align: center;
 }
 
