@@ -60,7 +60,7 @@ a:focus {
   font-weight: 300;
   font-size: 1.25em;
   margin: .25em auto;
-  color: #599BAB;
+  color: #276CA3;
 }
 
 header {
@@ -90,12 +90,13 @@ main {
 
 .work {
   margin: 0 .5em;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .workt {
-  font-weight: 300;
-  border-bottom: 2px solid #599BAB;
+  font-weight: 400;
+  color: #276CA3;
+  border-bottom: 2px solid #D8ECDA;
   max-width: 150px;
   margin: 0 auto .5em;
   padding-bottom: .25em;
@@ -113,7 +114,7 @@ main {
 .about h2,
 .ptitle {
   font-size: 1.5em;
-  color: #599BAB;
+  color: #276CA3;
   margin: 0 auto .25em auto;
   line-height: inherit;
   font-weight: 400;
@@ -135,7 +136,7 @@ main {
 }
 
 .portfolio h1 {
-  color: #599BAB;
+  color: #276CA3;
   margin: 0;
   font-size: 2em;
 }
@@ -161,7 +162,7 @@ main {
 
 .processtitle {
   font-weight: 300;
-  color: #599BAB;
+  color: #276CA3;
   margin-top: 1em;
 }
 
@@ -185,7 +186,7 @@ main {
 }
 
 footer p {
-  color: #599BAB;
+  color: #276CA3;
   padding-top: .5em;
   margin-bottom: 0;
 }
