@@ -90,7 +90,7 @@ header a {
 
 main {
   padding: 0;
-  margin: 1em auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -100,12 +100,12 @@ main {
 }
 
 .intro {
-  background-color: #276CA3; 
+  background-color: #F8A79A;
 }
 
 .intro p {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 .5em;
   color: white;
   padding: 1em 0;
 }
@@ -125,6 +125,7 @@ main {
   padding: 1em 0;
 }
 
+/*
 .about {
   margin-top: 1em;
 }
@@ -148,6 +149,7 @@ main {
   margin: 0 auto;
   margin-top: 1em;
 }
+*/
 
 .portfolio {
   text-align: center;
@@ -288,6 +290,14 @@ footer p {
     margin: 0 auto;
   }
     
+}
+
+@media only screen and (min-width: 38.5em) {
+  
+  .intro p {
+    margin: 0 auto;
+  }
+  
 }
 
 @media only screen and (min-width: 44.75em) {
