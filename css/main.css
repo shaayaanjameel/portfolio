@@ -78,16 +78,6 @@ header a {
   display: block;
 }
 
-/*
-.logo {
-  text-align: center;
-  color: #276CA3;
-  font-size: 1.75em;
-  font-weight: 500;
-  margin-bottom: .6em;
-}
-*/
-
 main {
   padding: 0;
   margin: 0 auto;
@@ -119,7 +109,7 @@ main {
   background-color: #276CA3; 
 }
 
-.about2 p {
+.about p {
   color: white;
   max-width: 600px;
   margin: 0 .5em;
@@ -135,32 +125,6 @@ main {
   color: white;
   margin-bottom: .5em;
 }
-
-/*
-.about {
-  margin-top: 1em;
-}
-
-.about h2,
-.ptitle {
-  font-size: 1.5em;
-  color: #276CA3;
-  margin: 0 auto .25em auto;
-  line-height: inherit;
-  font-weight: 400;
-}
-
-.about p { 
-  margin: 0 .5em;
-  max-width: 500px;
-}
-
-.aboutimg {
-  width: calc(100% - 1em);
-  margin: 0 auto;
-  margin-top: 1em;
-}
-*/
 
 .portfolio {
   text-align: center;
@@ -243,14 +207,6 @@ footer p {
     margin: .35em .25em;
   }
   
-/*
-  .logo {
-    position: absolute;
-    top: 0.1em;
-    left: .25em;
-  }
-*/
-
 }
 
 @media only screen and (min-width: 32.25em) {
@@ -262,13 +218,7 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
-/*
-    
-  .logo {
-    top: .2em;
-  }
-*/
-   
+
   .workt {
     padding-bottom: 0;
   }
