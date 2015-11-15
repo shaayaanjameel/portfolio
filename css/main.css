@@ -110,8 +110,9 @@ main {
   padding: 1em 0;
 }
 
-.portfoliopieces {
-  height: 20em;
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 .info {
