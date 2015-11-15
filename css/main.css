@@ -111,18 +111,28 @@ main {
 }
 
 .portfoliopieces {
-  height: 10em;
+  height: 20em;
 }
 
-.about2 {
+.info {
   background-color: #276CA3; 
 }
 
 .about2 p {
   color: white;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 .5em;
   padding: 1em 0;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia p {
+  display: inline-block;
+  color: white;
+  margin-bottom: .5em;
 }
 
 /*
@@ -200,25 +210,13 @@ main {
 }
 
 .footer {
-  border-top: 2px solid #F8A79A;
   margin: 0 .5em;
   text-align: center;
 }
 
 footer p {
   color: #276CA3;
-  padding-top: .5em;
-  margin-bottom: 0;
-}
-
-.socialmedia a {
-  text-decoration: none;
-}
-
-.socialmedia p {
-  display: inline-block;
-  color: #276CA3;
-  margin-bottom: .5em;
+  margin: .5em 0;
 }
 
 @media only screen and (min-width: 16em) {
@@ -295,6 +293,10 @@ footer p {
 @media only screen and (min-width: 38.5em) {
   
   .intro p {
+    margin: 0 auto;
+  }
+  
+  .about2 p {
     margin: 0 auto;
   }
   
