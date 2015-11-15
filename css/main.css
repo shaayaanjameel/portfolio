@@ -41,14 +41,13 @@ a:focus {
 }
 
 .nav {
-  border-bottom: 2px solid #F8A79A;
   margin: 0 .5em;
-  height: 7.5em; 
 }
 
 .nav ul {
   text-align: center;
-  padding: .5em 0;
+  padding: .25em 0;
+  margin-bottom: 0;
 }
 
 .nav ul a{
@@ -64,16 +63,22 @@ a:focus {
 }
 
 header {
-  margin-top: 1em;
-  margin-left: .5em;
-  margin-right: .5em;
-  border-bottom: 2px solid #F8A79A;
+  background-color: #D8ECDA;
 }
 
 header a {
   text-decoration: none;
 }
 
+.wordmark {
+  width: calc(100% - 1em);
+  max-width: 500px;
+  margin: 0 .5em;
+  padding: 1em 0;
+  display: block;
+}
+
+/*
 .logo {
   text-align: center;
   color: #276CA3;
@@ -81,6 +86,7 @@ header a {
   font-weight: 500;
   margin-bottom: .6em;
 }
+*/
 
 main {
   padding: 0;
@@ -93,18 +99,30 @@ main {
   max-width: 900px;
 }
 
-.workt {
-  font-weight: 400;
-  color: #276CA3;
-  border-bottom: 2px solid #D8ECDA;
-  max-width: 150px;
-  margin: 0 auto .5em;
-  padding-bottom: .25em;
+.intro {
+  background-color: #276CA3; 
 }
 
-.workp {
+.intro p {
   max-width: 600px;
-  margin: 0 auto 1.5em;
+  margin: 0 auto;
+  color: white;
+  padding: 1em 0;
+}
+
+.portfoliopieces {
+  height: 10em;
+}
+
+.about2 {
+  background-color: #276CA3; 
+}
+
+.about2 p {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em 0;
 }
 
 .about {
@@ -231,24 +249,32 @@ footer p {
     display: inline-block;
     margin: .35em .25em;
   }
-
-  header {
-    border-bottom: none;
-  }
-    
+  
+/*
   .logo {
     position: absolute;
     top: 0.1em;
     left: .25em;
   }
+*/
 
 }
 
+@media only screen and (min-width: 32.25em) {
+    
+  .wordmark {
+    margin: 0 auto;
+  }
+    
+}
+
 @media only screen and (min-width: 38em) {
+/*
     
   .logo {
     top: .2em;
   }
+*/
    
   .workt {
     padding-bottom: 0;
