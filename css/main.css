@@ -109,31 +109,16 @@ main {
   background-color: #276CA3; 
 }
 
-.about p {
-  color: white;
-  max-width: 600px;
-  margin: 0 .5em;
-  padding: 1em 0;
-}
-
-.socialmedia a {
-  text-decoration: none;
-}
-
-.socialmedia p {
-  display: inline-block;
-  color: white;
-  margin-bottom: .5em;
-}
-
-.portfolio {
-  text-align: center;
-}
-
-.portfolio h1 {
+.ptitle {
   color: #276CA3;
   margin: 0;
   font-size: 2em;
+  font-weight: 400;
+}
+
+.portfolio:last-child {
+  border-bottom: 2px solid #E5E5E5;
+  margin: 0 auto;
 }
 
 .portfolio p {
@@ -159,6 +144,7 @@ main {
   font-weight: 300;
   color: #276CA3;
   margin-top: 1em;
+  margin-bottom: 0;
 }
 
 .thumbnails {
@@ -172,6 +158,23 @@ main {
   margin-left: .5em;
   max-width: 400px;
   text-align: left;
+}
+
+.about p {
+  color: white;
+  max-width: 600px;
+  margin: 0 .5em;
+  padding: 1em 0;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia p {
+  display: inline-block;
+  color: white;
+  margin-bottom: .5em;
 }
 
 .footer {
