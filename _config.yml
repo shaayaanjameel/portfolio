@@ -1,4 +1,4 @@
 markdown: redcarpet
 permalink: pretty
-baseurl: /portfolio
+baseurl: ""
 exclude: ['REAMDE.md', 'portfolio-piece-template.md']
