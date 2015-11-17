@@ -74,7 +74,7 @@ header a {
   width: calc(100% - 1em);
   max-width: 500px;
   margin: 0 .5em;
-  padding: 1em 0;
+  padding: 8em 0;
   display: block;
 }
 
@@ -93,11 +93,18 @@ main {
   background-color: #38AB96;
 }
 
-.intro p {
+.intro h1 {
   max-width: 600px;
   margin: 0 .5em;
   color: white;
   padding: 1em 0;
+  font-weight: 400;
+}
+
+.donut {
+  width: calc(100% - 1em);
+  margin: 2em .5em 0;
+  max-width: 200px;
 }
 
 .img-flex {
@@ -160,11 +167,12 @@ main {
   text-align: left;
 }
 
-.about p {
+.about h2 {
   color: white;
   max-width: 600px;
   margin: 0 .5em;
   padding: 1em 0;
+  font-weight: 400;
 }
 
 .socialmedia a {
@@ -226,7 +234,7 @@ footer p {
     padding-bottom: 0;
   }
   
-  .about p { 
+  .about h2 { 
     margin: 0 auto;
   }
     
@@ -238,11 +246,7 @@ footer p {
 
 @media only screen and (min-width: 38.5em) {
   
-  .intro p {
-    margin: 0 auto;
-  }
-  
-  .about2 p {
+  .intro h1 {
     margin: 0 auto;
   }
   
