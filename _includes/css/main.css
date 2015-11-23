@@ -138,11 +138,11 @@ main {
   margin-right: .5em;
   margin-left: .5em;
   width: calc(100% - 1em);
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .maincap {
-  max-width: 700px;
+  max-width: 800px;
   text-align: left;
   margin-left: .5em;
 }
