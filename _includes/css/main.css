@@ -40,8 +40,26 @@ a:focus {
   top: 0;
 }
 
-.nav {
+header {
+  background-color: #E5E5E5;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.wordmark {
+  width: calc(100% - 1em);
+/*  min-width: 200px;*/
+  max-width: 400px;
   margin: 0 .5em;
+  padding: 1em 0;
+  display: block;
+}
+
+.nav {
+  margin: 0;
+  background-color: #E5E5E5;
 }
 
 .nav ul {
@@ -55,27 +73,11 @@ a:focus {
 }
 
 .nav li {
-  display: block;
+  display: inline-block;
   font-weight: 300;
   font-size: 1.25em;
-  margin: .25em auto;
+  margin: .25em;
   color: #276CA3;
-}
-
-header {
-  background-color: #E5E5E5;
-}
-
-header a {
-  text-decoration: none;
-}
-
-.wordmark {
-  width: calc(100% - 1em);
-  max-width: 500px;
-  margin: 0 .5em;
-  padding: 8em 0;
-  display: block;
 }
 
 main {
@@ -101,7 +103,7 @@ main {
   font-weight: 400;
 }
 
-.donut {
+.burger {
   width: calc(100% - 1em);
   margin: 2em .5em 0;
   max-width: 200px;
@@ -213,10 +215,11 @@ footer p {
 
 @media only screen and (min-width: 31.25em) {
   
+/*
   .nav li {
-    display: inline-block;
     margin: .35em .25em;
   }
+*/
   
 }
 
