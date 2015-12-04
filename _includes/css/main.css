@@ -42,6 +42,7 @@ a:focus {
 
 header {
   background-color: #E5E5E5;
+/*  position: fixed;*/
 }
 
 header a {
