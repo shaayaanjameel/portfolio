@@ -131,11 +131,6 @@ main {
   font-weight: 400;
 }
 
-.portfolio:last-child {
-  border-bottom: 2px solid #E5E5E5;
-  margin: 0 auto;
-}
-
 .portfolio p {
   max-width: 800px;
   margin: 0 .5em;
@@ -143,9 +138,7 @@ main {
 
 .mainimg {
   margin-top: 1em;
-  margin-right: .5em;
-  margin-left: .5em;
-  width: calc(100% - 1em);
+  width: 100%;
   max-width: 800px;
 }
 
@@ -163,8 +156,8 @@ main {
 }
 
 .thumbnails {
-  margin: 0em .5em;
-  width: calc(100% - 1em);
+  margin: 0em;
+  width: 100%;
   max-width: 400px;
 }
 
@@ -191,6 +184,11 @@ main {
   display: inline-block;
   color: white;
   margin-bottom: .5em;
+}
+
+.top {
+  width: 2em;
+  align-content: right;
 }
 
 .footer {
