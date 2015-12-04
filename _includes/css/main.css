@@ -79,6 +79,11 @@ header a {
   font-size: 1.25em;
   margin: .25em;
   color: #276CA3;
+  transition: all 300ms ease;
+}
+
+.nav li:hover {
+  color: #ffffff; 
 }
 
 main {
