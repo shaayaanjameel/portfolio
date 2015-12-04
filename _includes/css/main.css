@@ -188,11 +188,12 @@ main {
 
 .top {
   width: 2em;
-  align-content: right;
+  margin: 1em .5em;
 }
 
 .footer {
-  margin: 0 .5em;
+  margin: 0 .5em 4em .5em;
+  border-top: 2px solid #E5E5E5;
   text-align: center;
 }
 
