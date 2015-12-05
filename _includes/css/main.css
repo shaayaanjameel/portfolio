@@ -191,29 +191,37 @@ main {
 }
 
 .top:hover {
-  -webkit-animation: scale 2s ease; 
-  animation: scale 2s ease;
+  -webkit-animation: bounce 1s ease-in-out; 
+  animation: bounce 1s ease-in-out;
 }
 
-@-webkit-keyframes scale {
+@-webkit-keyframes bounce {
     
     0% {
-        -webkit-transform: scale(1,1);
+        -webkit-transform: translateY(0);
+    }
+    
+    50% {
+        -webkit-transform: translateY(5px);
+    }
+  
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    
+    0% {
+        transform: translateY(0);
+    }
+  
+    50% {
+        transform: translateY(5px);
     }
     
     100% {
-        -webkit-transform: scale(1.2,1.2);
-    }
-}
-
-@keyframes scale {
-    
-    0% {
-        transform: scale(1,1);
-    }
-    
-    100% {
-        transform: scale(1.2,1.2);
+        transform: translateY(0);
     }
 }
 
