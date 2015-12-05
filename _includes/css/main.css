@@ -51,7 +51,6 @@ header a {
 
 .wordmark {
   width: calc(100% - 1em);
-/*  min-width: 200px;*/
   max-width: 400px;
   margin: 0 .5em;
   padding: 1em 0;
@@ -188,7 +187,34 @@ main {
 
 .top {
   width: 2em;
-  margin: 1em .5em;
+  margin: 1em auto; 
+}
+
+.top:hover {
+  -webkit-animation: scale 2s ease; 
+  animation: scale 2s ease;
+}
+
+@-webkit-keyframes scale {
+    
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+    
+    100% {
+        -webkit-transform: scale(1.2,1.2);
+    }
+}
+
+@keyframes scale {
+    
+    0% {
+        transform: scale(1,1);
+    }
+    
+    100% {
+        transform: scale(1.2,1.2);
+    }
 }
 
 .footer {
