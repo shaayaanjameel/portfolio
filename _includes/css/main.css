@@ -41,7 +41,6 @@ a:focus {
 }
 
 header {
-  background-color: #E5E5E5;
 /*  position: fixed;*/
 }
 
@@ -59,7 +58,6 @@ header a {
 
 .nav {
   margin: 0;
-  background-color: #E5E5E5;
 }
 
 .nav ul {
@@ -202,7 +200,7 @@ main {
     }
     
     50% {
-        -webkit-transform: translateY(5px);
+        -webkit-transform: translateY(-5px);
     }
   
     100% {
@@ -217,23 +215,51 @@ main {
     }
   
     50% {
-        transform: translateY(5px);
+        transform: translateY(-5px);
     }
     
     100% {
         transform: translateY(0);
     }
+  
 }
 
 .footer {
-  margin: 0 .5em 4em .5em;
+  margin: 0;
   border-top: 2px solid #E5E5E5;
   text-align: center;
 }
 
 footer p {
   color: #276CA3;
-  margin: .5em 0;
+  margin: .5em;
+}
+
+.error {
+  background-color: #38AB96;
+  text-align: center;
+}
+
+.error h1 {
+  padding: .5em 0;
+  line-height: inherit;
+}
+
+.error h3 {
+  padding-bottom: 1em;
+  font-weight: 300;
+}
+
+.error h1,
+.error h3 {
+  color: #ffffff;
+  margin: 0 .5em;
+}
+
+.homeicon {
+  width: 10em;
+  margin: 0 auto;
+  padding-bottom: 1em;
 }
 
 @media only screen and (min-width: 16em) {
