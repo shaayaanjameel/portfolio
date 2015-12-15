@@ -41,7 +41,9 @@ a:focus {
 }
 
 header {
-/*  position: fixed;*/
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255,255,255,.8);
 }
 
 header a {
@@ -58,6 +60,7 @@ header a {
 
 .nav {
   margin: 0;
+  padding-top: 4.688em;
 }
 
 .nav ul {
@@ -119,6 +122,9 @@ main {
 
 .info {
   background-color: #276CA3; 
+}
+
+.portfolio {
 }
 
 .ptitle {
@@ -270,6 +276,30 @@ footer p {
     
 }
 
+@media only screen and (min-width: 18.75em) {
+  
+  .nav {
+    padding-top: 5.938em;
+  }
+  
+}
+
+@media only screen and (min-width: 25em) {
+ 
+  .nav {
+    padding-top: 6.5em;  
+  }
+  
+}
+
+@media only screen and (min-width: 25.875em) {
+  
+  .wordmark {
+    margin: 0 auto;
+  }
+  
+}
+
 @media only screen and (min-width: 26em) {
     
   .thumbcap {
@@ -278,26 +308,17 @@ footer p {
     
 }
 
-@media only screen and (min-width: 31.25em) {
-  
-/*
-  .nav li {
-    margin: .35em .25em;
-  }
-*/
-  
-}
-
 @media only screen and (min-width: 32.25em) {
     
-  .wordmark {
-    margin: 0 auto;
-  }
-    
+  
 }
 
 @media only screen and (min-width: 38em) {
-
+  
+  .nav {
+      padding-top:6em;  
+    }
+  
   .workt {
     padding-bottom: 0;
   }
@@ -334,4 +355,20 @@ footer p {
     margin: 0 auto;
   }
     
+}
+
+@media only screen and (min-width: 60em) {
+  
+  .nav {
+    padding-top: 5.5em;
+  }
+  
+}
+
+@media only screen and (min-width: 80em) {
+  
+  .nav {
+    padding-top: 5.35em;
+  }
+  
 }
