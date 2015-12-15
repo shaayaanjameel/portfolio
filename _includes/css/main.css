@@ -125,6 +125,7 @@ main {
 }
 
 .portfolio {
+  padding: 0;
 }
 
 .ptitle {
@@ -132,6 +133,7 @@ main {
   margin: 0;
   font-size: 2em;
   font-weight: 400;
+  padding-top: 2.25em;
 }
 
 .portfolio p {
@@ -276,13 +278,37 @@ footer p {
     
 }
 
+/*
+@media only screen and (min-width: 17.375em) {
+   
+  .ptitle {
+    padding-top: 2.25em;
+  }
+  
+}
+*/
+
 @media only screen and (min-width: 18.75em) {
   
   .nav {
     padding-top: 5.938em;
   }
   
+  .ptitle {
+    padding-top: 2.4em;
+  }
+ 
 }
+
+/*
+@media only screen and (min-width: 19.188em) {
+  
+  .ptitle {
+    padding-top: 2.5em;
+  }
+  
+}
+*/
 
 @media only screen and (min-width: 25em) {
  
@@ -290,7 +316,9 @@ footer p {
     padding-top: 6.5em;  
   }
   
-}
+  .ptitle {
+    padding-top: 3em;
+  }
 
 @media only screen and (min-width: 25.875em) {
   
@@ -325,6 +353,10 @@ footer p {
   
   .about h2 { 
     margin: 0 auto;
+  }
+  
+  .ptitle {
+    padding-top: 3.25em;
   }
     
   .portfolio p {
@@ -363,12 +395,20 @@ footer p {
     padding-top: 5.5em;
   }
   
+  .ptitle {
+    padding-top: 2.9em;
+  }
+  
 }
 
 @media only screen and (min-width: 80em) {
   
   .nav {
     padding-top: 5.35em;
+  }
+  
+  .ptitle {
+    padding-top: 2.75em;
   }
   
 }
