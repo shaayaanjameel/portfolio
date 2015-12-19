@@ -6,7 +6,7 @@ layout: default
   <div class="grid"> 
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
       <h1 class="ptitle">{{page.title}}</h1>
-      <p>{{page.intro}}</p>
+      <p class="portp">{{page.intro}}</p>
     </div>
             
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
@@ -24,5 +24,19 @@ layout: default
       <figcaption class="micro thumbcap">{{thumb.desc}}</figcaption>
     </div>
     {% endfor %}
+    
+    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+      <a href="{{site.baseurl}}/{{page.previous-piece}}" class="back">
+        <img class="backbtn" src="{{site.baseurl}}/images/back.svg">
+        <p><strong>{{page.previous-piece-title}}</strong></p>
+      </a>
+    </div>
+    
+    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+      <a href="{{site.baseurl}}/{{page.next-piece}}" class="next">
+        <img class="nextbtn" src="{{site.baseurl}}/images/forward.svg">
+        <p><strong>{{page.next-piece-title}}</strong></p>
+      </a>
+    </div>
   </div>
 </main>

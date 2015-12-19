@@ -136,7 +136,7 @@ main {
   border-top: 2px solid #E5E5E5;
 }
 
-.portfolio p {
+.portp {
   max-width: 800px;
   margin: 0 .5em;
 }
@@ -171,6 +171,30 @@ main {
   margin-left: .5em;
   max-width: 400px;
   text-align: left;
+}
+
+.back {
+  text-decoration: none;
+  color: #276CA3;
+}
+
+.backbtn {
+  width: 1.25em;
+  margin-top: 1em;
+}
+
+.back p {
+  margin-bottom: 1em;
+}
+
+.next {
+  text-decoration: none;
+  color: #276CA3;
+}
+
+.nextbtn {
+  width: 1.25em;
+  margin-top: 1em;
 }
 
 .about h2 {
@@ -346,7 +370,7 @@ footer p {
     margin: 0 auto;
   }
     
-  .portfolio p {
+  .portp {
     margin: 0 auto;
   }
     
