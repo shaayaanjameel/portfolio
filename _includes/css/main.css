@@ -181,6 +181,10 @@ main {
   font-weight: 400;
 }
 
+.socialmedia {
+  transition: all 300ms ease; 
+}
+
 .socialmedia a {
   text-decoration: none;
 }
@@ -189,6 +193,10 @@ main {
   display: inline-block;
   color: white;
   margin-bottom: .5em;
+}
+
+.socialmedia p:hover {
+  text-decoration: underline;
 }
 
 .top {
@@ -243,6 +251,10 @@ footer p {
   margin: .5em;
 }
 
+.merror{
+ padding-top: 4.688em; 
+}
+
 .error {
   background-color: #38AB96;
   text-align: center;
@@ -268,6 +280,11 @@ footer p {
   width: 10em;
   margin: 0 auto;
   padding-bottom: 1em;
+}
+
+.footer404 {
+  margin: 0;
+  text-align: center;
 }
 
 @media only screen and (min-width: 16em) {
@@ -318,8 +335,8 @@ footer p {
 @media only screen and (min-width: 38em) {
   
   .nav {
-      padding-top:6em;  
-    }
+    padding-top:6em;  
+  }
   
   .workt {
     padding-bottom: 0;
