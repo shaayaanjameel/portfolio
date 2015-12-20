@@ -132,45 +132,39 @@ main {
   color: #276CA3;
   margin: 0;
   font-size: 2em;
-  font-weight: 400;
   border-top: 2px solid #E5E5E5;
 }
 
+.psub {
+  margin: 0 0 .25em 0;
+  font-weight: 500;
+}
+
 .pintro {
-  max-width: 800px;
-  margin: 0 .5em;
+  max-width: 600px;
+}
+
+.process {
+  text-align: left;
+  padding: 0 .5em;
+}
+
+.processtitle {
+  color: #276CA3;
+  margin: 1em 0 .25em 0;
+  border-bottom: 2px solid #E5E5E5;
+  line-height: inherit;
+}
+
+.processsub {
+  margin-bottom: .25em;
+  color: #38AB96;
+  font-weight: 500;
 }
 
 .mainimg {
   margin-top: 1em;
   width: 100%;
-  max-width: 800px;
-}
-
-.maincap {
-  max-width: 800px;
-  text-align: left;
-  margin-left: .5em;
-}
-
-.processtitle {
-  font-weight: 300;
-  color: #276CA3;
-  margin-top: 1em;
-  margin-bottom: 0;
-}
-
-.thumbnails {
-  margin: 0em;
-  width: 100%;
-  max-width: 400px;
-}
-
-.thumbcap {
-  margin-top: .25em;
-  margin-left: .5em;
-  max-width: 400px;
-  text-align: left;
 }
 
 .back {
