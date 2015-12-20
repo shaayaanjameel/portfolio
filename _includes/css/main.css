@@ -180,28 +180,21 @@ main {
   max-width: 800px;
 }
 
-.back {
-  text-decoration: none;
-  color: #276CA3;
-}
-
-.backbtn {
-  width: 1.25em;
-  margin-top: 1em;
-}
-
-.back p {
-  margin-bottom: 1em;
-}
-
+.back,
 .next {
   text-decoration: none;
-  color: #276CA3;
 }
 
+.backbtn,
 .nextbtn {
   width: 1.25em;
   margin-top: 1em;
+}
+
+.back p,
+.next p {
+  margin-bottom: 1em;
+  color: #276CA3;
 }
 
 .about h2 {
