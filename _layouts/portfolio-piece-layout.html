@@ -6,9 +6,43 @@ layout: default
   <div class="grid"> 
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
       <h1 class="ptitle">{{page.title}}</h1>
-      <p class="portp">{{page.intro}}</p>
+      <p class="psub">{{page.sub}}</p>
+      <p class="pintro">{{page.intro}}</p>
     </div>
             
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+      <h2 class="processtitle">Project Overview</h2>
+      <p class="processsub">{{page.process-sub1}}</p>
+      <p class="processdesc">{{page.process-desc1}}</p>
+    </div>
+    
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+      <h2 class="processtitle">The Process</h2>
+      <p class="processsub">{{page.process-sub2}}</p>
+      <p class="processdesc">{{page.process-desc2}}</p>
+    </div>  
+    
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+      <img class="processimg" src="{{site.baseurl}}/images/{{page.process-img}}" alt="{{page.process-alt}}">  
+    </div>  
+    
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+      <h2 class="processtitle">The Challenges</h2>
+      <p class="processsub">{{page.process-sub1}}</p>
+      <p class="processdesc">{{page.process-desc1}}</p>
+    </div>
+    
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+      <h2 class="processtitle">The Solution</h2>
+      <p class="processsub">{{page.process-sub2}}</p>
+      <p class="processdesc">{{page.process-desc2}}</p>
+    </div>
+    
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+      <img class="mainimg" src="{{site.baseurl}}/images/{{page.main-img}}" alt=""> 
+    </div> 
+    
+<!--
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
       <img class="mainimg" src="{{site.baseurl}}/images/{{page.main-img}}" alt="">    
       <figcaption class="micro maincap">{{page.caption}}</figcaption>
@@ -24,6 +58,7 @@ layout: default
       <figcaption class="micro thumbcap">{{thumb.desc}}</figcaption>
     </div>
     {% endfor %}
+-->
     
     <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
       <a href="{{site.baseurl}}/{{page.previous-piece}}" class="back">
