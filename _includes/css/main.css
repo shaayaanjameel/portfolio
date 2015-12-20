@@ -171,6 +171,7 @@ main {
 .mainimg {
   margin-top: 1em;
   width: 100%;
+  max-width: 800px;
 }
 
 .back {
@@ -225,7 +226,7 @@ main {
 
 .top {
   width: 2em;
-  margin: 1em auto; 
+  margin: 1em auto .5em auto; 
 }
 
 .top:hover {
@@ -272,11 +273,11 @@ main {
 
 footer p {
   color: #276CA3;
-  margin: .5em;
+  margin: 0 .5em .5em .5em;
 }
 
 .merror{
- padding-top: 4.688em; 
+  padding-top: 4.688em; 
 }
 
 .error {
