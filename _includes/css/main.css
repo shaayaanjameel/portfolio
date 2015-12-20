@@ -168,6 +168,12 @@ main {
   font-weight: 600;
 }
 
+.processimg {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 800px;
+}
+
 .mainimg {
   margin-top: 1em;
   width: 100%;
