@@ -107,6 +107,7 @@ main {
   color: white;
   padding: 1em 0;
   font-weight: 400;
+  line-height: normal;
 }
 
 .burger {
@@ -147,11 +148,12 @@ main {
 
 .pintro {
   max-width: 600px;
+  margin: 0 1em;
 }
 
 .process {
   text-align: left;
-  padding: 0 .5em;
+  padding: 0 1em;
 }
 
 .processtitle {
@@ -196,12 +198,13 @@ main {
   color: #276CA3;
 }
 
-.about h2 {
+.about h3 {
   color: white;
   max-width: 600px;
   margin: 0 .5em;
   padding: 1em 0;
   font-weight: 400;
+  line-height: normal;
 }
 
 .socialmedia {
@@ -364,10 +367,6 @@ footer p {
   .workt {
     padding-bottom: 0;
   }
-  
-  .about h2 { 
-    margin: 0 auto;
-  }
     
   .pintro {
     margin: 0 auto;
@@ -378,6 +377,10 @@ footer p {
 @media only screen and (min-width: 38.5em) {
   
   .intro h1 {
+    margin: 0 auto;
+  }
+  
+  .about h3 { 
     margin: 0 auto;
   }
   
