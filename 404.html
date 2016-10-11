@@ -1,15 +1,37 @@
 ---
-layout: default
 permalink: /404.html
 title: Shaayaan Jameel | 404 Page
 meta: 404 page
 priority: 2.0
 ---
-
-<div class="error">
-  <h1>Sorry for the inconvenience!</h1>
-  <h3>Please direct yourself back to the homepage.</h3>
+<!DOCTYPE html>
+<html lang="en-ca">    
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} • {% endif %}Shaayaan Jameel{% if page.titleAfter %} • {{page.titleAfter}}{% endif %}</title>
+  <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/images/favicon.ico" rel="shortcut icon">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{page.meta}}">
+</head>
+<body>   
+ 
+<header role="banner">
   <a href="{{site.baseurl}}/">
-    <img class="homeicon" src="{{site.baseurl}}/images/home.svg">
+    <img class="wordmark" src="{{site.baseurl}}/images/wordmark.svg" alt="Shaayaan Jameel wordmark">
   </a>
-</div>
+</header>    
+ 
+<main id="main" role="main" class="merror">  
+  <div class="error">
+    <h1>Sorry for the inconvenience!</h1>
+    <h3>Please direct yourself back to the homepage.</h3>
+    <a href="{{site.baseurl}}/">
+      <img class="homeicon" src="{{site.baseurl}}/images/home.svg">
+    </a>
+  </div>
+</main>  
+  
+<footer role="contentinfo" class="footer404">
+  <p class="micro">© Copyright 2015 Shaayaan Jameel. All rights reserved.</p>    
+</footer>  
