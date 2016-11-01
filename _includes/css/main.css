@@ -21,10 +21,6 @@ body {
   margin: 0;
 }
 
-a:focus {
-  outline: 3px solid #000;
-}
-
 .skip-links {
   margin: 0;
   padding: 0;
@@ -38,12 +34,11 @@ a:focus {
 
 .skip-links a:focus {
   top: 0;
+  outline: 3px solid #000;
 }
 
 header {
-  position: fixed;
   width: 100%;
-  background-color: rgba(255,255,255,.8);
 }
 
 header a {
@@ -60,7 +55,6 @@ header a {
 
 .nav {
   margin: 0;
-  padding-top: 4.688em;
 }
 
 .nav ul {
@@ -79,11 +73,12 @@ header a {
   font-size: 1.25em;
   margin: .25em;
   color: #276CA3;
-  transition: all 300ms ease;
+  transition: all 100ms ease;
 }
 
 .nav li:hover {
   text-decoration: underline; 
+  font-weight: 600;
 }
 
 main {
@@ -98,22 +93,16 @@ main {
 }
 
 .intro {
-  background-color: #38AB96;
+  background-color: #C9E9E6;
 }
 
 .intro h1 {
-  max-width: 600px;
+  max-width: 750px;
   margin: 0 .5em;
-  color: white;
+  color: #276CA3;
   padding: 1em 0;
   font-weight: 400;
   line-height: normal;
-}
-
-.burger {
-  width: calc(100% - 1em);
-  margin: 2em .5em 0;
-  max-width: 200px;
 }
 
 .img-flex {
@@ -298,7 +287,7 @@ footer p {
 
 .error h1,
 .error h3 {
-  color: #ffffff;
+  color: #fff;
   margin: 0 .5em;
 }
 
@@ -322,18 +311,12 @@ footer p {
 }
 
 @media only screen and (min-width: 18.75em) {
-  
-  .nav {
-    padding-top: 5.938em;
-  }
+
 
 }
 
 @media only screen and (min-width: 25em) {
  
-  .nav {
-    padding-top: 6.5em;  
-  }
   
 }
 
@@ -359,11 +342,7 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
-  
-  .nav {
-    padding-top:6em;  
-  }
-  
+
   .workt {
     padding-bottom: 0;
   }
@@ -403,17 +382,11 @@ footer p {
 }
 
 @media only screen and (min-width: 60em) {
-  
-  .nav {
-    padding-top: 5.5em;
-  }
+
   
 }
 
 @media only screen and (min-width: 80em) {
   
-  .nav {
-    padding-top: 5.35em;
-  }
   
 }
