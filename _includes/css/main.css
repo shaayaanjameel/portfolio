@@ -39,6 +39,8 @@ body {
 
 header {
   width: 100%;
+  position: fixed;
+  background: #FFF;
 }
 
 header a {
@@ -55,6 +57,7 @@ header a {
 
 .nav {
   margin: 0;
+  padding-top: 4.5em;
 }
 
 .nav ul {
@@ -136,13 +139,13 @@ main {
 }
 
 .pintro {
-  max-width: 600px;
+  max-width: 750px;
   margin: 0 1em;
 }
 
 .process {
   text-align: left;
-  padding: 0 1em;
+  padding: 0 1.3em;
 }
 
 .processtitle {
@@ -158,16 +161,90 @@ main {
   font-weight: 600;
 }
 
-.processimg {
+.processimg,
+.mainimg {
   margin-top: 1em;
   width: 100%;
   max-width: 800px;
 }
 
-.mainimg {
+.btn {
+  margin: 0;
+}
+
+.btn ul {
   margin-top: 1em;
-  width: 100%;
-  max-width: 800px;
+  text-align: center;
+}
+
+.btn ul a {
+  text-decoration: none;
+}
+
+.btn li {
+  display: inline-block;
+  color: #276CA3;
+  transition: all 100ms ease;
+/*  width: 3em;*/
+}
+
+.btn li:hover {
+  text-decoration: underline;
+}
+
+.back {
+  margin-right: 5em;
+  margin-left: -2em;
+}
+
+/*
+.next {
+  margin-left: 10em;
+}
+*/
+
+/*
+.nav {
+  margin: 0;
+}
+
+.nav ul {
+  text-align: center;
+  padding: .25em 0;
+  margin-bottom: 0;
+}
+
+.nav ul a{
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.25em;
+  margin: .25em;
+  color: #276CA3;
+  transition: all 100ms ease;
+}
+
+.nav li:hover {
+  text-decoration: underline; 
+  font-weight: 600;
+}
+*/
+
+
+/*
+.back {
+  margin: 1em 0 1em; 
+}
+*/
+
+/*
+.backbtn,
+.nextbtn {
+  width: 1.25em;
+  margin-top: 1em;
 }
 
 .back,
@@ -175,17 +252,12 @@ main {
   text-decoration: none;
 }
 
-.backbtn,
-.nextbtn {
-  width: 1.25em;
-  margin-top: 1em;
-}
-
 .back p,
 .next p {
   margin-bottom: 1em;
   color: #276CA3;
 }
+*/
 
 .info {
   background-color: #C9E9E6; 
@@ -219,6 +291,7 @@ main {
   font-weight: 600;
 }
 
+/*
 .top {
   width: 2em;
   margin: 1em auto .5em auto; 
@@ -259,20 +332,27 @@ main {
     }
   
 }
+*/
 
 .footer {
   margin: 0;
+  padding: 1em 0;
   border-top: 2px solid #C9E9E6;
   text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #276CA3;
+}
+
+.top:hover {
+  text-decoration: underline;
 }
 
 footer p {
   color: #276CA3;
   margin: 0 .5em .5em .5em;
-}
-
-.merror{
-  padding-top: 4.688em; 
 }
 
 .error {
@@ -304,6 +384,7 @@ footer p {
 
 .footer404 {
   margin: 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -315,51 +396,69 @@ footer p {
     
 }
 
-@media only screen and (min-width: 18.75em) {
+@media only screen and (min-width: 19em) {
 
+/*
+  .nav {
+    padding-top: 6.5em;
+  }
+*/
 
 }
 
 @media only screen and (min-width: 25em) {
  
-  
-}
-
-@media only screen and (min-width: 25.875em) {
-  
   .wordmark {
     margin: 0 auto;
+  }
+  
+  .nav {
+    padding-top: 6.5em;
+  }
+  
+  .back {
+    margin-right: 15em;
   }
   
 }
 
 @media only screen and (min-width: 26em) {
+/*
     
   .thumbcap {
     margin-left: auto;
   }
     
-}
-
-@media only screen and (min-width: 32.25em) {
-    
-  
+*/
 }
 
 @media only screen and (min-width: 38em) {
 
-  .workt {
-    padding-bottom: 0;
+  .nav {
+    padding-top: 6em;
+  }
+  
+   .intro h1 {
+    margin: 0 auto;
   }
     
   .pintro {
     margin: 0 auto;
   }
     
+  .about h3 { 
+    margin: 0 auto;
+  }
+  
+  .back {
+    margin-right: 25em;
+  }
+  
 }
 
 @media only screen and (min-width: 38.5em) {
   
+/*
   .intro h1 {
     margin: 0 auto;
   }
@@ -367,31 +466,46 @@ footer p {
   .about h3 { 
     margin: 0 auto;
   }
+*/
   
 }
 
 @media only screen and (min-width: 44.75em) {
     
+/*
   .maincap {
     margin: auto;
   }
+*/
     
 }
 
-@media only screen and (min-width: 51em) {
-    
-  .work {
-    margin: 0 auto;
+@media only screen and (min-width: 50em) {
+  
+/*
+  .processimg,
+  .mainimg {
+    margin-left: auto;
+    margin-right: auto;
   }
-    
+*/
+   
 }
 
 @media only screen and (min-width: 60em) {
 
+  .nav {
+    padding-top: 5.5em;
+  }
+  
+  .back {
+    margin-right: 30em;
+  }
   
 }
 
 @media only screen and (min-width: 80em) {
+
   
   
 }

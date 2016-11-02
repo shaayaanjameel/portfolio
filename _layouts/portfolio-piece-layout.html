@@ -14,13 +14,13 @@ layout: default
       <p class="pintro">{{page.intro}}</p>
     </div>
             
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-half process">
       <h2 class="processtitle">Project Overview</h2>
       <p class="processsub">{{page.process-sub1}}</p>
       <p class="processdesc">{{page.process-desc1}}</p>
     </div>
     
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-half process">
       <h2 class="processtitle">The Process</h2>
       <p class="processsub">{{page.process-sub2}}</p>
       <p class="processdesc">{{page.process-desc2}}</p>
@@ -30,13 +30,13 @@ layout: default
       <img class="processimg" src="{{site.baseurl}}/images/{{page.process-img}}" alt="">  
     </div>  
     
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-half process">
       <h2 class="processtitle">The Challenges</h2>
       <p class="processsub">{{page.process-sub3}}</p>
       <p class="processdesc">{{page.process-desc3}}</p>
     </div>
     
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 process">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-half process">
       <h2 class="processtitle">The Solution</h2>
       <p class="processsub">{{page.process-sub4}}</p>
       <p class="processdesc">{{page.process-desc4}}</p>
@@ -45,37 +45,55 @@ layout: default
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
       <img class="mainimg" src="{{site.baseurl}}/images/{{page.main-img}}" alt=""> 
     </div> 
+  </div> 
+  
+  <div class="btn">
+  <ul>  
+    <a href="{{site.baseurl}}/{{page.previous-piece}}" class="back">
+      <li>BACK</li>
+    </a>
     
-<!-- Old Layout
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <img class="mainimg" src="{{site.baseurl}}/images/{{page.main-img}}" alt="">    
-      <figcaption class="micro maincap">{{page.caption}}</figcaption>
-    </div>
-    
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
-      <h2 class="processtitle">The Details</h1>
-    </div>
-    
-    {% for thumb in page.thumbnails %}
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 portfolio">
-      <img class="thumbnails" src="{{site.baseurl}}/images/{{thumb.thumb}}" alt="">
-      <figcaption class="micro thumbcap">{{thumb.desc}}</figcaption>
-    </div>
-    {% endfor %}
--->
-    
-    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-      <a href="{{site.baseurl}}/{{page.previous-piece}}" class="back">
-        <img class="backbtn" src="{{site.baseurl}}/images/back.svg">
-        <p><strong>{{page.previous-piece-title}}</strong></p>
-      </a>
-    </div>
-    
-    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-      <a href="{{site.baseurl}}/{{page.next-piece}}" class="next">
-        <img class="nextbtn" src="{{site.baseurl}}/images/forward.svg">
-        <p><strong>{{page.next-piece-title}}</strong></p>
-      </a>
-    </div>
+    <a href="{{site.baseurl}}/{{page.next-piece}}" class="next">
+      <li>NEXT</li>
+    </a> 
+  </ul>  
+  </div>  
+  
+<!--
+  <div class="btn">
+    <a href="{{site.baseurl}}/{{page.next-piece}}" class="next">
+      <p>NEXT</p>
+    </a> 
   </div>
+-->
+  
+  
+<!--
+  <div  id="nav" role="navigation" class="nav">
+  <ul>
+    <a href="{{site.baseurl}}/#work">
+      <li>WORK</li>
+    </a>
+        
+    <a href="{{site.baseurl}}/#about">
+      <li>ABOUT</li>
+    </a>
+            
+    <a href="{{site.baseurl}}/#contact">
+      <li>CONTACT</li>
+    </a>
+  </ul>
+  </div>
+-->
+
+  
+
+<!--
+  <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+    <a href="{{site.baseurl}}/{{page.next-piece}}" class="next">
+      <img class="nextbtn" src="{{site.baseurl}}/images/forward.svg">
+      <p><strong>{{page.next-piece-title}}</strong></p>
+    </a>
+  </div>
+-->
 </main>
