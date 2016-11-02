@@ -355,6 +355,10 @@ footer p {
   margin: 0 .5em .5em .5em;
 }
 
+.merror {
+  padding-top: 4.5em;
+}
+
 .error {
   background-color: #38AB96;
   text-align: center;
@@ -420,6 +424,10 @@ footer p {
     margin-right: 15em;
   }
   
+  .merror {
+    padding-top: 6.5em;
+  }
+  
 }
 
 @media only screen and (min-width: 26em) {
@@ -452,6 +460,10 @@ footer p {
   
   .back {
     margin-right: 25em;
+  }
+  
+  .merror {
+    padding-top: 6em;
   }
   
 }
@@ -500,6 +512,10 @@ footer p {
   
   .back {
     margin-right: 30em;
+  }
+  
+  .merror {
+    padding-top: 5.5em;
   }
   
 }
