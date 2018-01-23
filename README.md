@@ -1,8 +1,8 @@
 Shaayaan Jameel, Ottawa based Graphic Designer
 
-Why me you ask? Why not? I'm an adventurous designer looking to make her mark in the world with quirky, fun and creative production values. I'm an UI/UX enthusiast and an illustration lover. Designing makes me happy and I can't wait to be doing it for the rest of my life. Sneak a peek at some of my work. If you're interested let's talk!
+Realizing what your end destination is as a student isn't easy for everyone. Some students realize early in life while others realize later. I started my journey in postsecondary as business student and finished as a design student. I quickly realized is where I belonged. So here I am, just an average person, looking for a full-time design challenge. 
 
-- [E-mail](mailto:jameel.shaayaan@gmail.com)
+- [E-mail](mailto:hello@shaayaanjameel.ca)
 - [Behance](https://www.behance.net/ShaayaanJameel)
 - [LinkedIn](https://www.linkedin.com/pub/shaayaan-jameel/62/2ba/a28)
 - [Instagram](https://instagram.com/shaayaanj)
